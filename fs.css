@@ -1,0 +1,78 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  
+}
+#nav-bar
+{
+postion: sticky;
+top: 0;
+z-index: 10;
+}
+.navbar
+{
+ background-image: linear-gradient(to right, #a517ba,#5f1782)
+}
+.navbar-brand
+{
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  color: #fff !importent;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars
+{
+ color: #fff;
+ font-size: 30px !importent;
+ }
+.navbar-toggler
+{
+ outline: none !importent;
+ }
+ #banner
+ {
+   background-image: linear-gradient(to right, #a517ba,#5f1782);
+   color: #fff;
+    padding-top: 5%;
+ }
+
+ .promo-title
+ {
+    font-size: 60px;
+	font-weight: 600;
+	margin-top: 100px;
+
+}
+/*----------service-----*/
+#service
+{
+  padding: 80px 0;
+  }
+ .service-img
+ {
+    width: 80px;
+	margin-top: 20px;
+}
+.service
+{
+ padding: 20px;
+ }
+ .service h4
+ {
+   padding: 5px;
+   margin: 25;
+   text-transform: uppercase;
+ }
